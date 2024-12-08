@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="adminlogin.css">
+</head>
+<body>
+    <div class="car">
+  <div class="login-container">
+    <h2>Login Account</h2>
+    <h3>ADMIN LOGIN</h3>
+    <form action="#" method="post" class="login-form">
+      <div class="form-group">
+        <label for="admin-name">Admin Name</label>
+        <input type="text" id="admin-name" name="admin-name" placeholder="Enter your username" required autocomplete="off" autocorrect="off">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter complex password" required>
+      </div>
+      <div class="form-group">
+        <label for="governorate">Governorate</label>
+        <input type="text" id="governorate" name="governorate" placeholder="Enter your governorate" required autocomplete="off" autocorrect="off">
+      </div>
+      <button type="submit" class="btn">Login as Admin</button>
+    </form>
+
+    <p id="error-message" style="color: red; display: none;">Invalid username, password, or governorate</p>
+  </div>
+  </div>
+
+  <script src="login.js"></script> 
+</body>
+</html>
