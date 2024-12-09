@@ -1,7 +1,7 @@
 var nam=document.getElementById("name");
 var password=document.getElementById('pass')
 
- function adduser(){
+function adduser(){
     var users = JSON.parse(localStorage.getItem('users'));
 
   var user = {
@@ -23,5 +23,4 @@ var password=document.getElementById('pass')
 
 
 
- }
- 
+}

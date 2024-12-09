@@ -17,7 +17,7 @@ form.addEventListener('submit', function(event) {
         password: pass.value,
         governorate: governorate.value,
     };
-   
+
     users.push(user);
     localStorage.setItem("users", JSON.stringify(users));
 
@@ -30,5 +30,5 @@ form.addEventListener('submit', function(event) {
     var password=document.getElementById('pass')
     // var users=[];
     
-     
+    
 });
